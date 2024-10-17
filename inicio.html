@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperFilmes 4k</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .sf {
+            color: #B82744;
+        }
+        #header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(135deg, #B82744, #181617);
+            padding: 15px 30px;
+        }
+        #logo h1 {
+            color: white;
+            font-size: 2em;
+            margin: 0;
+        }
+        .menu {
+            display: flex;
+        }
+        button {
+            background-color: #B82744;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            margin: 0 5px;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #A02030;
+        }
+        button:focus {
+            outline: none;
+            transform: scale(1.05);
+        }
+        #cont {
+            width: 75%;
+            margin: 5% auto;
+        }
+        #txt {
+            text-align: center;
+        }
+        #cat {
+            margin-top: 3%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            height:600px;
+        }
+        h2 {
+            margin: 0;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="menu" id="logo">
+            <a href="inicio.html">
+                <h1>SuperFIlmes 4k</h1>
+            </a>
+        </div>
+
+        <div class="menu" id="botoes">
+            <a href="add.html"><button>Adicionar</button></a>
+            <a href="rmv.html"><button>Remover/Editar</button></a>
+        </div>
+    </div>
+    
+    <div id="cont">
+        <div id="txt">
+            <h2>O seu <span class="sf">super</span> catálogo de <span class="sf">filmes</span>!</h2>
+        </div>
+        <div id="cat">
+            finge que isso eh uma tabela
+        </div>
+    </div>
+
+</body>
+</html>
